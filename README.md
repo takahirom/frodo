@@ -12,6 +12,7 @@ It generates and weaves code based on annotations only on ```debug``` versions o
 ![frodo_hug](https://cloud.githubusercontent.com/assets/1360604/10925718/e7ea4318-8290-11e5-91b4-f2bfbde65319.gif)
 
 <br>
+
 Main Features
 -----------------
 
@@ -26,6 +27,7 @@ Main Features
     }
 ```
 <br>
+
 - **@RxLogObservable.Scope Options:** It is possible to narrow down the debug information shown by adding a debugging scope to @RxLogObservable annotation. 
 
      -  **Scope.EVERYTHING:** Logs stream data, schedulers and rx.Observable events. Default.
@@ -42,6 +44,7 @@ Main Features
 ```
 
 <br>
+
 - **@RxLogSubscriber:** Annotated classes which are of type ```rx.Subscriber``` will print the following information when receiving items from an ```rx.Observable```:
 
 <img width="980" alt="frodo_subscriber" src="https://cloud.githubusercontent.com/assets/1360604/10925010/fa76523e-828a-11e5-8607-1611aef61add.png">
@@ -75,6 +78,7 @@ public class MySubscriberBackpressure extends Subscriber<Integer> {
 ```
 
 <br>
+
 Enabling Frodo
 -----------------
 To enable Frodo, a gradle plugin must be applied in your ```build.gradle```:
@@ -100,6 +104,7 @@ frodo {
 ```
 
 <br>
+
 Known issues
 -----------------
 
@@ -112,6 +117,7 @@ android {
 ```
 
 <br>
+
 Frodo WIKI
 -----------------
 For complete information, features and usage, refer to the [WIKI](https://github.com/android10/frodo/wiki):
@@ -122,6 +128,7 @@ For complete information, features and usage, refer to the [WIKI](https://github
 - [Frodo under the hoods](https://github.com/android10/frodo/wiki/Under-the-hoods)
 
 <br>
+
 License
 -----------------
 
